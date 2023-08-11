@@ -1,0 +1,5 @@
+module mux(s,i0,i1,o);
+input s,i0,i1;
+output o;
+assign m=(~s&i0)|(s&i1);
+endmodule
